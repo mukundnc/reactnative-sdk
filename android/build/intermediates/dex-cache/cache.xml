@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_a4f8c16ff901bdababba4c764daa4d8bd8a91e5b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_7aefd89714f35e90e4c268be88033843554522bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_87f464d089da2ed3276273889d4a35c084bec722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_cdb1860c2f27a458127c179bc909aaa89c3ef135.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_a4879e74d9f2b52c71d7323585ca558002e239ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_98a35380a2ddd2deed887c5a3c4288309bffd0d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\benowP\react-native-ble-plx\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fd5b976cf9da8c577abb6d5aee21298c9360b60c">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\benowP-react-native-ble-plx-unspecified_8e85d5d42954e3f84c0bfe4516b5d5cf3d5b4029.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_7fb0a05ca6820efbc5cee4a7c1272ed9817e1e8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_6295f26064479f806d779c451a7bcce91f273924.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_5ba9f86a4e5fda950f68ca9fd4073671aeee7cbe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.3.2\bcc561a84883a9f3f84e209662c4765a0c3dc691\rxjava-1.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bcc561a84883a9f3f84e209662c4765a0c3dc691">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\rxjava-1.3.2_193e9d4633469ba20447518055b93e67f8a007de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_03dca04fbdab2370061ec7f9e142d8645c86b36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_92305a408ccce58168412603643c0e1a94a8da9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_c1feec388fae12464186a0891e4f946a70714571.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_31c81bffd041c93c5b68131768d26a78e1d5a0b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_590c2aef38795787ec2b30588eb78cd23a393ef8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\libs\mfreadersdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e14488351628792ea24b051ede6da50ea54827b3">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\mfreadersdk_60c459150033c8cd3dce1faf6c80d7d5909018f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.8\55a1aa1cdcfd06b9950ca856e2bc2790e105146a\dagger-2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\dagger-2.8_ec481084457c89990019f125342f07108686efe1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_2232963706e8370ee91f8461d4b33990b027e8bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.jakewharton.rxrelay\rxrelay\1.2.0\a53b8b8ef1a5ec8ff75afca24fc689b71892b44f\rxrelay-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a53b8b8ef1a5ec8ff75afca24fc689b71892b44f">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\rxrelay-1.2.0_6455fadda6bb3d9caa19dcc3731dc67bd3c861df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.polidea.rxandroidble\rxandroidble\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="86d0e4fc4a4ee9e31b6d54ae3a14afe682815f08">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.polidea.rxandroidble-rxandroidble-1.4.3_62efd5bead65ff38bae57fd7ec0442bd199147ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_fb04474961836d76a40b798b86356c56646f2cbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_c9b7163a850806afd42461f5ddb2243875375fa1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\mukc\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_41754bfbacffea67b67be5afc977495a4495b632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_57b9ae5791486d1cf3019ca4759cc351f265ae01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_252a3f312cee6c83c4ff3c9c36af86d94bed75c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.artemzin.rxjava\proguard-rules\1.3.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="615264fe0e8b673e8a6ba5740547a1e86ff8f7a4">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.artemzin.rxjava-proguard-rules-1.3.2.0_8054e43ad8e08c1cb85963a26dcc4d134c0e3c59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\git\benowP\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\git\benowP\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_8f32b8ca4bfcd01851e39463b990137090e3ba17.jar" />
+    </item>
+
+</items>
