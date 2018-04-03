@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\btn_fall_out.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\anim-v21\\btn_fall_out.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\btn_fall_in.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\anim-v21\\btn_fall_in.xml"
+    }
+]

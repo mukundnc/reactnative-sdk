@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usebutton.thirdparty.android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textcard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/btn_text_card_bottom_margin"
+    style="@style/BtnTextCard"
+    >
+
+    <include
+        layout="@layout/btn_checkout_text_card_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/btn_text_card_padding"
+        />
+
+</com.usebutton.thirdparty.android.support.v7.widget.CardView>

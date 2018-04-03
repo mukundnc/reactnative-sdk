@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usebutton.sdk"
+    android:versionCode="1"
+    android:versionName="5.27.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name="com.usebutton.sdk.internal.InstallCardActivity"
+            android:configChanges="orientation|screenLayout"
+            android:theme="@style/BtnTheme.ButtonDialog" />
+        <activity
+            android:name="com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            android:configChanges="orientation|screenLayout"
+            android:theme="@style/BtnTheme.ButtonDialog" />
+        <!-- Limited to portrait only for now until we have a more responsive strategy -->
+        <activity
+            android:name="com.usebutton.sdk.internal.SingleProductCardActivity"
+            android:configChanges="orientation|screenLayout"
+            android:screenOrientation="portrait"
+            android:theme="@style/BtnTheme.ButtonDialog" />
+        <activity
+            android:name="com.usebutton.sdk.internal.WebViewActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:theme="@style/BtnTheme.ButtonFullScreen" />
+        <activity
+            android:name="com.usebutton.sdk.internal.AuthChallengeActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:theme="@style/BtnTheme.ButtonAuthChallenge" />
+        <activity
+            android:name="com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:theme="@style/BtnTheme.ButtonMerchantAction" />
+        <activity
+            android:name="com.usebutton.sdk.internal.InstallSheetActivity"
+            android:configChanges="orientation|screenLayout|screenSize"
+            android:theme="@style/BtnTheme.ButtonMerchantAction" />
+
+        <receiver
+            android:name="com.usebutton.sdk.internal.receivers.LocaleChangedReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.usebutton.sdk.internal.receivers.InstallReferrerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.usebutton.sdk.internal.receivers.InstallNotificationReceiver"
+            android:exported="false" />
+    </application>
+
+</manifest>

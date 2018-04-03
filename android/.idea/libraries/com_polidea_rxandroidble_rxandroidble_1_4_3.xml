@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.polidea.rxandroidble:rxandroidble-1.4.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../node_modules/react-native-ble-plx/android/build/intermediates/exploded-aar/com.polidea.rxandroidble/rxandroidble/1.4.3/res" />
+      <root url="jar://$PROJECT_DIR$/../node_modules/react-native-ble-plx/android/build/intermediates/exploded-aar/com.polidea.rxandroidble/rxandroidble/1.4.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.polidea.rxandroidble/rxandroidble/1.4.3/1e7336c183142ced78d1d55a0c64e9e481bb3d24/rxandroidble-1.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

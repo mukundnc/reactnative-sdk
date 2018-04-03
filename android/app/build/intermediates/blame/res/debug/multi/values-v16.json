@@ -1,0 +1,196 @@
+[
+    {
+        "outputFile": "C:\\git\\benowP\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 12,
+                    "endOffset": 443
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 448,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 760
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 448,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 765,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 865
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 865
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 870,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 990
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 870,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 995,
+                    "endLine": 25,
+                    "endColumn": 12,
+                    "endOffset": 1148
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 995,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1153,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1321
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1153,
+                        "endLine": 29,
+                        "endColumn": 12,
+                        "endOffset": 1321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1326,
+                    "endLine": 32,
+                    "endColumn": 12,
+                    "endOffset": 1434
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1326,
+                        "endLine": 32,
+                        "endColumn": 12,
+                        "endOffset": 1434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1439,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 1617
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1439,
+                        "endLine": 36,
+                        "endColumn": 12,
+                        "endOffset": 1617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1622,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2037
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v16\\values-v16.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1622,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 2037
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,47 +1,107 @@
 [
     {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_background_white_pressed.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_background_white_pressed.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_bg_navigation_top.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_bg_navigation_top.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_dot_inactive.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_dot_inactive.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_right_enabled.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_right_enabled.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_left_enabled.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_left_enabled.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_web_close.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_web_close.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_left.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_left.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_right.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_white.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_right_disabled.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_right_disabled.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_dot_active.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_dot_active.xml"
+    },
+    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_bg_navigation.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_bg_navigation.xml"
     },
     {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
@@ -56,16 +116,24 @@
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_background_white.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_background_white.xml"
+    },
+    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_dot.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_dot.xml"
     },
     {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_ic_chevron_left_disabled.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable\\btn_ic_chevron_left_disabled.xml"
     },
     {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
@@ -76,15 +144,7 @@
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     }
 ]

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="__local_jars__:C.\git\benowP\android\app\libs\mfreadersdk.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/mfreadersdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

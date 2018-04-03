@@ -213,6 +213,16 @@
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="android:Widget.Material.TextView.SpinnerItem"/>
     <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation" parent="android:Widget.Material.Toolbar.Button.Navigation">
     </style>
+    <style name="BtnBorderlessButton" parent="@android:style/Widget.Material.Button.Borderless"/>
+    <style name="BtnProgressBar" parent="@android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:layout_marginTop">-6dp</item>
+    </style>
+    <style name="BtnTextCard" parent="BtnCard">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/btn_text_card_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_text_card_side_margin</item>
+        <item name="android:elevation">@dimen/btn_card_elevation</item>
+    </style>
     <style name="Platform.AppCompat" parent="android:Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>

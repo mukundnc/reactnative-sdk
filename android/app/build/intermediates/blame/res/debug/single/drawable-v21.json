@@ -4,6 +4,10 @@
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\btn_background_white.xml",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-v21\\btn_background_white.xml"
+    },
+    {
         "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }

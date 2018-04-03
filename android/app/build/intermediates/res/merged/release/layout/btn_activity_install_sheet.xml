@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <FrameLayout
+        android:id="@+id/install_sheet_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@android:color/black"
+        />
+
+    <LinearLayout
+        android:id="@+id/install_sheet_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        >
+
+        <com.usebutton.sdk.internal.views.ColorProgressBar
+            android:id="@+id/install_sheet_progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            style="@style/BtnProgressBar"
+            />
+
+        <TextView
+            android:id="@+id/install_sheet_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="16sp"
+            tools:text="Shop in the Button app"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/install_sheet_app_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/btn_ic_app_button"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/install_sheet_app_icon"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/install_sheet_app_title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="16sp"
+                    tools:text="Button Wholesale"
+                    />
+
+                <TextView
+                    android:id="@+id/install_sheet_app_subtitle_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    tools:text="Button"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/install_sheet_button_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="14sp"
+                tools:text="SHOP IN APP"
+                style="@style/BtnBorderlessButton"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/install_sheet_button_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/btn_grey_light"
+            android:ellipsize="end"
+            android:enabled="false"
+            android:maxLines="1"
+            android:textColor="@color/btn_disabled"
+            android:textSize="14sp"
+            tools:text="Continue to Button.com"
+            style="@style/BtnBorderlessButton"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.usebutton.sdk.internal.views.ObservableWebView
+        android:id="@+id/web_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:actionBarSize"
+        />
+
+    <RelativeLayout
+        android:id="@+id/web_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/web_chrome"
+        android:layout_below="@+id/web_chrome_top"
+        />
+
+    <RelativeLayout
+        android:id="@+id/web_chrome_top"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_bg_navigation_top"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        >
+
+        <ImageButton
+            android:id="@+id/web_close"
+            android:layout_width="?android:attr/actionBarSize"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_ic_clear"
+            />
+
+        <TextView
+            android:id="@+id/web_chrome_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/web_close"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/btn_white"
+            android:textSize="18dp"
+            tools:ignore="HardcodedText"
+            tools:text="Title"
+            />
+
+        <TextView
+            android:id="@+id/web_chrome_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/web_close"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/btn_white"
+            android:textSize="14dp"
+            tools:ignore="HardcodedText"
+            tools:text="SubTitle"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/web_chrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_bg_navigation"
+        >
+
+        <com.usebutton.sdk.internal.views.WebControls
+            android:id="@+id/web_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/web_back"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@null"
+                android:scaleType="center"
+                android:src="@drawable/btn_ic_chevron_left"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="40dp"
+                android:layout_height="1dp"
+                />
+
+            <ImageButton
+                android:id="@+id/web_forward"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="@null"
+                android:scaleType="center"
+                android:src="@drawable/btn_ic_chevron_right"
+                />
+
+            <android.support.v4.widget.Space
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                />
+
+            <LinearLayout
+                android:id="@+id/web_open_app"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_web_footer_margin"
+                android:layout_marginRight="@dimen/btn_web_footer_margin"
+                android:focusable="true"
+                android:gravity="center_vertical|right"
+                android:orientation="horizontal"
+                >
+
+                <com.usebutton.sdk.internal.views.AssetImageView
+                    android:id="@+id/web_open_app_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:focusable="false"
+                    android:src="@drawable/btn_ic_app_button"
+                    />
+
+                <TextView
+                    android:id="@+id/web_open_app_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:textSize="14dp"
+                    tools:text="Continue in app"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/web_cta_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/btn_web_footer_margin"
+                android:layout_marginRight="@dimen/btn_web_footer_margin"
+                android:focusable="true"
+                android:gravity="center_vertical|right"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/web_cta_icon"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:focusable="false"
+                    tools:src="@drawable/btn_ic_app_button"
+                    />
+
+                <TextView
+                    android:id="@+id/web_cta_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    tools:text="2% Cash Back"
+                    />
+
+            </LinearLayout>
+
+        </com.usebutton.sdk.internal.views.WebControls>
+
+        <com.usebutton.sdk.internal.views.ColorProgressBar
+            android:id="@+id/web_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            style="@style/BtnProgressBar"
+            />
+
+    </FrameLayout>
+
+</RelativeLayout>

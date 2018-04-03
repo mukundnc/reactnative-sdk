@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_ic_app_installed_action.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xxhdpi-v4\\btn_ic_app_installed_action.png"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_ic_action_clear.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xxhdpi-v4\\btn_ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_ic_app_button.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xxhdpi-v4\\btn_ic_app_button.png"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\btn_ic_car_black.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xxhdpi-v4\\btn_ic_car_black.png"
+    }
+]

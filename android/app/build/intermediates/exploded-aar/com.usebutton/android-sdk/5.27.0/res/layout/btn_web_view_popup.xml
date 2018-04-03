@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/web_popup"
+    >
+
+    <FrameLayout
+        android:id="@+id/web_popup_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="@android:color/black"
+        android:focusable="false"
+        android:clickable="false"
+        />
+
+    <WebView
+        android:id="@+id/web_popup_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        />
+
+</merge>

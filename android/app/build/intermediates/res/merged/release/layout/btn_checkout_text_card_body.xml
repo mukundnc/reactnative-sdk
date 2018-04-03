@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:showIn="@layout/btn_checkout_textcard"
+    >
+
+    <TextView
+        android:id="@+id/textcard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btn_text_card_text_space_margin"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        tools:text="2% Cash Back on this Item"
+        />
+
+    <TextView
+        android:id="@+id/textcard_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="5sp"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        android:textStyle="normal"
+        tools:text="This category of items qualifies for 2% Cash Back when you shop now through Ibotta."
+        />
+</LinearLayout>

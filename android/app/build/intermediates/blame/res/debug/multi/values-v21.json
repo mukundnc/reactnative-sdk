@@ -1578,9 +1578,70 @@
                     "startLine": 215,
                     "startColumn": 4,
                     "startOffset": 16414,
-                    "endLine": 221,
+                    "endColumn": 97,
+                    "endOffset": 16507
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 97,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 16512,
+                    "endLine": 218,
                     "endColumn": 12,
-                    "endOffset": 16762
+                    "endOffset": 16675
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 316
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 219,
+                    "startColumn": 4,
+                    "startOffset": 16680,
+                    "endLine": 224,
+                    "endColumn": 12,
+                    "endOffset": 17041
+                },
+                "from": {
+                    "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\values-v21\\values-v21.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 17046,
+                    "endLine": 231,
+                    "endColumn": 12,
+                    "endOffset": 17394
                 },
                 "from": {
                     "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
@@ -1596,12 +1657,12 @@
             },
             {
                 "to": {
-                    "startLine": 222,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 16767,
-                    "endLine": 228,
+                    "startOffset": 17399,
+                    "endLine": 238,
                     "endColumn": 12,
-                    "endOffset": 17127
+                    "endOffset": 17759
                 },
                 "from": {
                     "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
@@ -1617,12 +1678,12 @@
             },
             {
                 "to": {
-                    "startLine": 229,
+                    "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 17132,
-                    "endLine": 238,
+                    "startOffset": 17764,
+                    "endLine": 248,
                     "endColumn": 12,
-                    "endOffset": 17807
+                    "endOffset": 18439
                 },
                 "from": {
                     "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
@@ -1638,11 +1699,11 @@
             },
             {
                 "to": {
-                    "startLine": 239,
+                    "startLine": 249,
                     "startColumn": 4,
-                    "startOffset": 17812,
+                    "startOffset": 18444,
                     "endColumn": 56,
-                    "endOffset": 17864
+                    "endOffset": 18496
                 },
                 "from": {
                     "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
@@ -1657,11 +1718,11 @@
             },
             {
                 "to": {
-                    "startLine": 240,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 17869,
+                    "startOffset": 18501,
                     "endColumn": 57,
-                    "endOffset": 17922
+                    "endOffset": 18554
                 },
                 "from": {
                     "file": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",

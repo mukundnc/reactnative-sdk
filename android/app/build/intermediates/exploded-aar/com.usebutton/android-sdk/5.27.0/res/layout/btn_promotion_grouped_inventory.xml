@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/promo_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    >
+
+    <com.usebutton.thirdparty.android.support.v7.widget.CardView
+        android:id="@+id/promo_card"
+        style="@style/BtnCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <RelativeLayout
+            android:id="@+id/promo_banner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineProvider="bounds"
+            android:paddingTop="@dimen/btn_promo_card_padding"
+            tools:ignore="UnusedAttribute"
+            android:transitionName="promo-banner"
+            >
+
+            <TextView
+                android:id="@+id/promo_title"
+                style="@style/BtnCardText.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/btn_promo_card_padding"
+                tools:text="Ride Free"
+                />
+
+            <TextView
+                android:id="@+id/promo_subtitle"
+                style="@style/BtnCardText.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/promo_title"
+                android:layout_marginBottom="@dimen/btn_promo_card_padding"
+                android:layout_marginLeft="@dimen/btn_promo_card_padding"
+                android:layout_marginRight="@dimen/btn_promo_card_padding"
+                android:layout_marginTop="0dp"
+                tools:text="$30 credit towards your first ride"
+                />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/promo_subtitle"
+                >
+
+                <com.usebutton.sdk.internal.views.HumbleViewPager
+                    android:id="@+id/promo_pager"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <android.support.v4.view.PagerTabStrip
+                        android:id="@+id/promo_pager_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingBottom="4dp"
+                        android:paddingTop="4dp"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+                        />
+
+                    <android.widget.Space
+                        android:id="@+id/promo_pager_fake_footer"
+                        android:layout_width="1dp"
+                        android:layout_height="@dimen/btn_footer_height"
+                        />
+
+                </com.usebutton.sdk.internal.views.HumbleViewPager>
+
+                <include
+                    android:id="@+id/promo_footer"
+                    layout="@layout/btn_inventory_one_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/btn_footer_height"
+                    android:layout_gravity="bottom"
+                    />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </com.usebutton.thirdparty.android.support.v7.widget.CardView>
+</FrameLayout>

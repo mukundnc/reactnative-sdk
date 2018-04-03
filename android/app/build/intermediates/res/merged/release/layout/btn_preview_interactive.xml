@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/BtnInteractiveButton"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="6dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.usebutton.sdk.internal.views.PreviewView
+        android:id="@+id/btn_preview"
+        style="@style/BtnInteractiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        >
+
+        <Space
+            android:id="@+id/btn_preview_left_space"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            />
+
+        <com.usebutton.sdk.internal.views.AssetImageView
+            android:id="@+id/btn_preview_icon"
+            android:layout_width="@dimen/btn_button_icon_size"
+            android:layout_height="@dimen/btn_button_icon_size"
+            android:clickable="false"
+            android:focusable="false"
+            android:scaleType="centerInside"
+            tools:src="@drawable/btn_ic_app_button"
+            />
+
+        <Space
+            android:id="@+id/btn_preview_right_space"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            />
+
+        <com.usebutton.sdk.internal.views.LoadingDots
+            android:layout_height="10dp"
+            android:id="@+id/btn_preview_loading"
+            app:btn_loadingDotsCount="3"
+            app:btn_paddingRight="8dp"
+            app:btn_dotSize="10dp"
+            android:layout_width="wrap_content"
+            />
+
+        <LinearLayout
+            android:id="@+id/btn_texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/btn_preview_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:visibility="gone"
+                tools:text="DINING"
+                />
+
+            <TextView
+                android:id="@+id/btn_preview_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:focusable="false"
+                android:maxLines="2"
+                android:textColor="@color/btn_grey_dark"
+                tools:ignore="SpUsage"
+                android:textSize="15dp"
+                tools:text="Reserve a table for 2 at 8pm lisa gikk til skolen en vakker dag"
+                />
+        </LinearLayout>
+
+    </com.usebutton.sdk.internal.views.PreviewView>
+
+    <com.usebutton.sdk.internal.views.HumbleViewPager
+        android:id="@+id/btn_inventory_pager"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingBottom="2dp"
+        android:paddingRight="6dp"
+        android:paddingLeft="25dp"
+        />
+
+</LinearLayout>

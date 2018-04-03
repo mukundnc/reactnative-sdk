@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usebutton.sdk.internal.views.PreviewView style="@style/BtnDropinButton"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.usebutton.sdk.internal.views.AssetImageView
+        android:id="@+id/btn_preview_icon"
+        android:layout_width="@dimen/btn_button_icon_size"
+        android:layout_height="@dimen/btn_button_icon_size"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="centerInside"
+        tools:src="@drawable/btn_ic_app_button"
+        />
+
+    <LinearLayout
+        android:id="@+id/btn_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="left|center_vertical"
+        android:orientation="vertical"
+        >
+
+        <com.usebutton.sdk.internal.views.LoadingGradient
+            app:btn_startColor="#02000000"
+            app:btn_backgroundColor="#0d000000"
+            app:btn_highlightColor="#26000000"
+            app:btn_duration="1000"
+            android:layout_width="200dp"
+            android:visibility="gone"
+            android:layout_height="30dp"
+            android:id="@+id/btn_preview_loading"
+            />
+
+        <TextView
+            android:id="@+id/btn_preview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            tools:text="DINING"
+            />
+
+        <TextView
+            android:id="@+id/btn_preview_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:maxLines="2"
+            tools:text="Reserve a table for 2 at 8pm lisa gikk til skolen en vakker dag"
+            />
+    </LinearLayout>
+
+</com.usebutton.sdk.internal.views.PreviewView>

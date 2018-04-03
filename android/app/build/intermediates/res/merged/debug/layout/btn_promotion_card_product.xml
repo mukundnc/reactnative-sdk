@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/promo_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    xmlns:button="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.usebutton.thirdparty.android.support.v7.widget.CardView
+        android:id="@+id/promo_card"
+        style="@style/BtnCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_white"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.usebutton.sdk.internal.views.RatioViewPager
+                    android:id="@+id/promo_carousel"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    button:btn_height_to_width_ratio="1.5"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/btn_promo_card_padding"
+                    >
+
+                    <com.usebutton.sdk.internal.views.PagerIndicator
+                        android:id="@+id/promo_page_indicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        />
+
+                    <TextView
+                        android:id="@+id/promo_product_title"
+                        style="@style/BtnCardText.Dark.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/btn_promo_card_padding"
+                        tools:text="Jack Spade Text Oxford Briefcase"
+                        />
+
+                    <TextView
+                        android:id="@+id/promo_product_subtitle"
+                        style="@style/BtnCardText.Small.Grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/btn_promo_card_padding"
+                        tools:text="$ 398.00"
+                        />
+
+                    <TextView
+                        android:id="@+id/promo_product_description"
+                        style="@style/BtnCardText.Small.Grey"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/btn_promo_card_padding"
+                        tools:text="● Apple iOS 8, 10-Inch Retina Display, 2048x1536 Resolution
+● A8X Chip with 64-bit Architecture, M8 Motion Coprocessor
+● Wi-Fi (802.11a/b/g/n/ac): 16 GB, Capacity: 2 GB RAM"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <include
+                android:id="@+id/promo_footer"
+                layout="@layout/btn_inventory_one_line"
+                />
+
+        </LinearLayout>
+
+    </com.usebutton.thirdparty.android.support.v7.widget.CardView>
+</FrameLayout>

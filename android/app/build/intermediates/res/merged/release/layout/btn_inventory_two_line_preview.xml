@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usebutton.sdk.internal.views.TwoLineInventoryView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute"
+    android:layout_width="260dp"
+    android:layout_height="@dimen/btn_inventory_height"
+    android:background="@drawable/btn_background_white"
+    android:id="@+id/inventory_root"
+    android:elevation="2dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:padding="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            >
+
+            <View
+                android:layout_width="106dp"
+                android:id="@+id/inventory_primary_placeholder"
+                android:background="@color/btn_placeholder"
+                android:visibility="gone"
+                android:layerType="hardware"
+                android:layout_marginBottom="8dp"
+                android:layout_height="12dp"
+                />
+
+            <TextView
+                tools:ignore="SpUsage"
+                android:id="@+id/inventory_primary"
+                style="@style/BtnCardText.btn_charcoal.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center_vertical|left"
+                android:lines="1"
+                android:textSize="14dp"
+                tools:text="Sedan is a great car you should buy it"
+                />
+
+            <View
+                android:layout_width="58dp"
+                android:id="@+id/inventory_secondary_placeholder"
+                android:layerType="hardware"
+                android:background="@color/btn_placeholder"
+                android:visibility="gone"
+                android:layout_height="9dp"
+                />
+
+            <TextView
+                android:id="@+id/inventory_secondary"
+                style="@style/BtnCardText.Dark.Small.Light"
+                android:padding="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                tools:ignore="SpUsage"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:lines="1"
+                android:minWidth="60dp"
+                android:textSize="12dp"
+                tools:text="3 min away"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            >
+
+            <com.usebutton.sdk.internal.views.AssetImageView
+                android:id="@+id/inventory_icon_full"
+                android:layout_height="36dp"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:gravity="right"
+                android:layout_width="36dp"
+                android:scaleType="fitEnd"
+                tools:src="@drawable/btn_ic_car_black"
+                />
+
+
+            <com.usebutton.sdk.internal.views.AssetImageView
+                android:id="@+id/inventory_icon"
+                android:layout_width="36dp"
+                android:scaleType="fitEnd"
+                android:layout_height="15dp"
+                android:gravity="right"
+                tools:src="@drawable/btn_ic_car_black"
+                />
+
+            <TextView
+                android:id="@+id/inventory_icon_text"
+                style="@style/BtnCardText.Dark.Small.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:gravity="right"
+                tools:ignore="SpUsage"
+                android:minWidth="60dp"
+                android:textSize="13dp"
+                tools:text="$8"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.usebutton.sdk.internal.views.TwoLineInventoryView>

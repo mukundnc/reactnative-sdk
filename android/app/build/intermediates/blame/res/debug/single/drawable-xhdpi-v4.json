@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_ic_clear.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xhdpi-v4\\btn_ic_clear.png"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_ic_action_clear.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xhdpi-v4\\btn_ic_action_clear.png"
+    },
+    {
+        "merged": "C:\\git\\benowP\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_ic_app_installed_action.png",
+        "source": "C:\\git\\benowP\\android\\app\\build\\intermediates\\exploded-aar\\com.usebutton\\android-sdk\\5.27.0\\res\\drawable-xhdpi-v4\\btn_ic_app_installed_action.png"
+    }
+]

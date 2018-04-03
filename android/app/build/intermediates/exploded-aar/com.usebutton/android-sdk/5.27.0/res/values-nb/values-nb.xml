@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_no_store_close">Lukk</string>
+    <string name="btn_no_store_message">Denne telefonen har ikke Google Play Store installert, så vi kan ikke installere %s.</string>
+    <string name="btn_no_store_title">Ingen Google Play Store</string>
+</resources>

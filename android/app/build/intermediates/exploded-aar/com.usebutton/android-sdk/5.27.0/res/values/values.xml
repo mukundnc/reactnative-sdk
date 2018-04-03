@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="reference" name="baseCardViewStyle"/>
+    <attr format="color" name="btn_backgroundColor"/>
+    <attr format="reference" name="btn_backgroundDrawable"/>
+    <attr format="string" name="btn_buttonId"/>
+    <attr format="dimension" name="btn_dotSize"/>
+    <attr format="dimension" name="btn_drawablePadding"/>
+    <attr format="dimension" name="btn_drawablePaddingBottom"/>
+    <attr format="dimension" name="btn_drawablePaddingLeft"/>
+    <attr format="dimension" name="btn_drawablePaddingRight"/>
+    <attr format="dimension" name="btn_drawablePaddingTop"/>
+    <attr format="integer" name="btn_duration"/>
+    <attr format="string" name="btn_font"/>
+    <attr name="btn_gravity">
+        <flag name="top" value="0x30"/>
+        <flag name="bottom" value="0x50"/>
+        <flag name="left" value="0x03"/>
+        <flag name="right" value="0x05"/>
+        <flag name="center_vertical" value="0x10"/>
+        <flag name="fill_vertical" value="0x70"/>
+        <flag name="center_horizontal" value="0x01"/>
+        <flag name="fill_horizontal" value="0x07"/>
+        <flag name="center" value="0x11"/>
+        <flag name="fill" value="0x77"/>
+        <flag name="clip_vertical" value="0x80"/>
+        <flag name="clip_horizontal" value="0x08"/>
+        <flag name="start" value="0x00800003"/>
+        <flag name="end" value="0x00800005"/>
+    </attr>
+    <attr format="float" name="btn_height_to_width_ratio"/>
+    <attr format="color" name="btn_highlightColor"/>
+    <attr format="dimension" name="btn_iconSize"/>
+    <attr format="boolean" name="btn_interactionDisabled"/>
+    <attr format="dimension" name="btn_inventoryLeftPadding"/>
+    <attr format="integer" name="btn_loadingDotsCount"/>
+    <attr format="dimension" name="btn_padding"/>
+    <attr format="dimension" name="btn_paddingBottom"/>
+    <attr format="dimension" name="btn_paddingLeft"/>
+    <attr format="dimension" name="btn_paddingRight"/>
+    <attr format="dimension" name="btn_paddingTop"/>
+    <attr format="color" name="btn_startColor"/>
+    <attr format="color" name="btn_textColor"/>
+    <attr format="dimension" name="btn_textSize"/>
+    <attr name="btn_textStyle">
+        <flag name="normal" value="0x0"/>
+        <flag name="lower" value="0x1"/>
+        <flag name="upper" value="0x10"/>
+    </attr>
+    <attr format="float" name="btn_width_to_height_ratio"/>
+    <attr format="reference" name="imageCardViewStyle"/>
+    <color name="btn_auth_challenge_background">#CC000000</color>
+    <color name="btn_background_material_dark">#ff303030</color>
+    <color name="btn_black">#000</color>
+    <color name="btn_blue">#016fc4</color>
+    <color name="btn_blue_dark">#385581</color>
+    <color name="btn_blue_light">#576c8a</color>
+    <color name="btn_cardview_dark_background">#FF202020</color>
+    <color name="btn_cardview_light_background">#FFFAFAFA</color>
+    <color name="btn_cardview_shadow_end_color">#03000000</color>
+    <color name="btn_cardview_shadow_start_color">#37000000</color>
+    <color name="btn_charcoal">#1b1b1b</color>
+    <color name="btn_clear">#00000000</color>
+    <color name="btn_dialog_background">#22000000</color>
+    <color name="btn_disabled">#b2b6be</color>
+    <color name="btn_divider_color">#e4e4e4</color>
+    <color name="btn_grey">#878787</color>
+    <color name="btn_grey_dark">#464044</color>
+    <color name="btn_grey_light">#efefef</color>
+    <color name="btn_placeholder">#0d000000</color>
+    <color name="btn_text_dark">#4e5b63</color>
+    <color name="btn_white">#fff</color>
+    <color name="btn_white_transparent">#88ffffff</color>
+    <declare-styleable name="LoadingDots"><attr name="btn_loadingDotsCount"/><attr name="btn_paddingRight"/><attr name="btn_dotSize"/></declare-styleable>
+    <declare-styleable name="btn_CardView"><attr format="color" name="btn_cardBackgroundColor"/><attr format="dimension" name="btn_cardCornerRadius"/><attr format="dimension" name="btn_cardElevation"/><attr format="dimension" name="btn_cardMaxElevation"/><attr format="boolean" name="btn_cardUseCompatPadding"/><attr format="boolean" name="btn_cardPreventCornerOverlap"/><attr format="dimension" name="btn_contentPadding"/><attr format="dimension" name="btn_contentPaddingLeft"/><attr format="dimension" name="btn_contentPaddingRight"/><attr format="dimension" name="btn_contentPaddingTop"/><attr format="dimension" name="btn_contentPaddingBottom"/></declare-styleable>
+    <declare-styleable name="btn_lbBaseCardView"><attr format="reference|color" name="btn_cardForeground"/><attr format="reference|color" name="btn_cardBackground"/><attr format="enum" name="btn_cardType">
+            
+            <enum name="mainOnly" value="0"/>
+            
+            <enum name="infoOver" value="1"/>
+            
+            <enum name="infoUnder" value="2"/>
+            
+            <enum name="infoUnderWithExtra" value="3"/>
+        </attr><attr format="enum" name="btn_infoVisibility">
+            
+            <enum name="always" value="0"/>
+            
+            <enum name="activated" value="1"/>
+            
+            <enum name="selected" value="2"/>
+        </attr><attr format="enum" name="btn_extraVisibility">
+            
+            <enum name="always" value="0"/>
+            
+            <enum name="activated" value="1"/>
+            
+            <enum name="selected" value="2"/>
+        </attr><attr format="integer" name="btn_selectedAnimationDelay"/><attr format="integer" name="btn_selectedAnimationDuration"/><attr format="integer" name="btn_activatedAnimationDuration"/></declare-styleable>
+    <declare-styleable name="btn_lbBaseCardView_Layout"><attr format="enum" name="btn_layout_viewType">
+            
+            <enum name="main" value="0"/>
+            
+            <enum name="info" value="1"/>
+            
+            <enum name="extra" value="2"/>
+        </attr></declare-styleable>
+    <declare-styleable name="btn_lbResizingTextView"><attr name="btn_resizeTrigger">
+            
+            <flag name="maxLines" value="0x01"/>
+        </attr><attr format="dimension" name="btn_resizedTextSize"/><attr format="boolean" name="btn_maintainLineSpacing"/><attr format="dimension" name="btn_resizedPaddingAdjustmentTop"/><attr format="dimension" name="btn_resizedPaddingAdjustmentBottom"/></declare-styleable>
+    <declare-styleable name="btn_lbSlide"><attr name="lb_slideEdge">
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="android:duration"/><attr name="android:startDelay"/><attr name="android:interpolator"/></declare-styleable>
+    <declare-styleable name="com.usebutton.sdk.ButtonDropin"><attr name="btn_buttonId"/><attr name="btn_textColor"/><attr name="btn_padding"/><attr name="btn_paddingLeft"/><attr name="btn_paddingTop"/><attr name="btn_paddingRight"/><attr name="btn_paddingBottom"/><attr name="btn_gravity"/><attr name="btn_textStyle"/><attr name="btn_interactionDisabled"/></declare-styleable>
+    <declare-styleable name="com.usebutton.sdk.InteractiveButton"><attr name="btn_inventoryLeftPadding"/></declare-styleable>
+    <declare-styleable name="com.usebutton.sdk.internal.views.BaseButton"><attr name="btn_drawablePadding"/><attr name="btn_drawablePaddingLeft"/><attr name="btn_drawablePaddingTop"/><attr name="btn_drawablePaddingRight"/><attr name="btn_drawablePaddingBottom"/><attr name="btn_iconSize"/><attr name="btn_backgroundColor"/><attr name="btn_backgroundDrawable"/><attr name="btn_textSize"/><attr name="btn_font"/></declare-styleable>
+    <declare-styleable name="com.usebutton.sdk.internal.views.LoadingGradient"><attr name="btn_startColor"/><attr name="btn_highlightColor"/><attr name="btn_backgroundColor"/><attr name="btn_duration"/></declare-styleable>
+    <declare-styleable name="com.usebutton.sdk.internal.views.RatioViewPager"><attr name="btn_width_to_height_ratio"/><attr name="btn_height_to_width_ratio"/></declare-styleable>
+    <dimen name="btn_button_icon_size">18dp</dimen>
+    <dimen name="btn_card_default_radius">2dp</dimen>
+    <dimen name="btn_card_elevation">4dp</dimen>
+    <dimen name="btn_cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="btn_cardview_default_elevation">2dp</dimen>
+    <dimen name="btn_cardview_default_radius">2dp</dimen>
+    <dimen name="btn_footer_height">60dp</dimen>
+    <dimen name="btn_inventory_height">100dp</dimen>
+    <dimen name="btn_inventory_margin">10dp</dimen>
+    <dimen name="btn_inventory_width">260dp</dimen>
+    <dimen name="btn_inventory_width_max">300dp</dimen>
+    <dimen name="btn_inventory_width_min">260dp</dimen>
+    <dimen name="btn_pager_dot_margin">3dp</dimen>
+    <dimen name="btn_pager_dot_size">8dp</dimen>
+    <dimen name="btn_promo_action_padding">3dp</dimen>
+    <dimen name="btn_promo_card_padding">20dp</dimen>
+    <dimen name="btn_promo_product_image_padding">5dp</dimen>
+    <dimen name="btn_text_card_bottom_margin">16dp</dimen>
+    <dimen name="btn_text_card_padding">16dp</dimen>
+    <dimen name="btn_text_card_side_margin">8dp</dimen>
+    <dimen name="btn_text_card_text_space_margin">4dp</dimen>
+    <dimen name="btn_web_footer_margin">16dp</dimen>
+    <integer name="btn_animation_short">@android:integer/config_shortAnimTime</integer>
+    <integer name="btn_lb_card_activated_animation_duration">150</integer>
+    <integer name="btn_lb_card_selected_animation_delay">400</integer>
+    <integer name="btn_lb_card_selected_animation_duration">150</integer>
+    <string name="btn_continue_in_app" translatable="false">Continue in app</string>
+    <string name="btn_continue_to_web" translatable="false">Continue to web</string>
+    <string name="btn_go_to_app" translatable="false">Go to App</string>
+    <string name="btn_install" translatable="false">Install</string>
+    <string name="btn_loading_promotion" translatable="false">Loading…</string>
+    <string name="btn_message_waiting_to_install" translatable="false">Waiting for %s to install.</string>
+    <string name="btn_no_store_close">Dismiss</string>
+    <string name="btn_no_store_message">This device doesn\'t have the Google Play Store installed. Please test on a device with Google Play to install %s.</string>
+    <string name="btn_no_store_title">No Google Play Store</string>
+    <string name="btn_notification_channel_title" translatable="false">App install notifications</string>
+    <string name="btn_shop_in_app" translatable="false">Shop in app</string>
+    <string name="btn_was_installed" translatable="false">%s was installed</string>
+    <style name="BtnAnimation.Card" parent="android:Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/btn_fall_in</item>
+        <item name="android:windowExitAnimation">@anim/btn_fall_out</item>
+    </style>
+    <style name="BtnBaseButton">
+        <item name="btn_textSize">15sp</item>
+        <item name="btn_iconSize">@dimen/btn_button_icon_size</item>
+        <item name="btn_interactionDisabled">false</item>
+    </style>
+    <style name="BtnBorderlessButton" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="BtnCard" parent="BtnCardView.Light">
+        <item name="btn_cardBackgroundColor">#1fbad6</item>
+        <item name="btn_cardPreventCornerOverlap">false</item>
+        <item name="btn_cardMaxElevation">0dp</item>
+        <item name="btn_cardElevation">0dp</item>
+        <item name="btn_cardUseCompatPadding">true</item>
+    </style>
+    <style name="BtnCardAction" parent="android:Widget.Button">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/btn_background_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/btn_promo_action_padding</item>
+    </style>
+    <style name="BtnCardText">
+        <item name="android:textColor">@color/btn_white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="BtnCardText.Dark">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/btn_grey_dark</item>
+    </style>
+    <style name="BtnCardText.Dark.Small">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BtnCardText.Dark.Small.Light"/>
+    <style name="BtnCardText.Large">
+        <item name="android:textSize" ns1:ignore="SpUsage">30dp</item>
+    </style>
+    <style name="BtnCardText.Small">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BtnCardText.Small.Grey">
+        <item name="android:textColor">@color/btn_grey</item>
+    </style>
+    <style name="BtnCardText.btn_charcoal">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/btn_charcoal</item>
+    </style>
+    <style name="BtnCardText.btn_charcoal.Small">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BtnCardText.btn_charcoal.Small.Light"/>
+    <style name="BtnCardView">
+        <!--int backgroundColor = a.getColor(R.styleable.btn_CardView_btn_cardBackgroundColor, 0);-->
+        <item name="btn_cardBackgroundColor">@color/btn_cardview_light_background</item>
+        <!--float radius = a.getDimension(R.styleable.btn_CardView_btn_cardCornerRadius, 0);-->
+        <item name="btn_cardCornerRadius">@dimen/btn_cardview_default_radius</item>
+        <!--float elevation = a.getDimension(R.styleable.btn_CardView_btn_cardElevation, 0);-->
+        <item name="btn_cardElevation">@dimen/btn_cardview_default_elevation</item>
+        <!--float maxElevation = a.getDimension(R.styleable.btn_CardView_btn_cardMaxElevation, 0);-->
+        <item name="btn_cardMaxElevation">@dimen/btn_cardview_default_elevation</item>
+        <!--mCompatPadding = a.getBoolean(R.styleable.btn_CardView_btn_cardUseCompatPadding, false);-->
+        <item name="btn_cardUseCompatPadding">false</item>
+        <!--mPreventCornerOverlap = a.getBoolean(R.styleable.btn_CardView_btn_cardPreventCornerOverlap, true);-->
+        <item name="btn_cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="BtnCardView.Light">
+        <item name="btn_cardBackgroundColor">@color/btn_cardview_light_background</item>
+    </style>
+    <style name="BtnDropinButton" parent="BtnBaseButton">
+        <item name="btn_drawablePadding">5dp</item>
+        <item name="btn_padding">10dp</item>
+        <item name="btn_gravity">left|center_vertical</item>
+    </style>
+    <style name="BtnInteractiveButton" parent="BtnBaseButton">
+        <item name="btn_drawablePaddingLeft">14dp</item>
+        <item name="btn_drawablePaddingRight">8dp</item>
+        <item name="btn_inventoryLeftPadding">14dp</item>
+    </style>
+    <style name="BtnLoadingGradient">
+        <item name="btn_startColor">#cecece</item>
+        <item name="btn_backgroundColor">#cecece</item>
+        <item name="btn_highlightColor">#f1f1f1</item>
+        <item name="btn_duration">1000</item>
+    </style>
+    <style name="BtnProgressBar" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:layout_marginTop">-7dp</item>
+    </style>
+    <style name="BtnTextCard" parent="BtnCard">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/btn_text_card_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_text_card_side_margin</item>
+    </style>
+    <style name="BtnTheme.ButtonAuthChallenge" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/BtnAnimation.Card</item>
+        <item name="android:windowBackground">@color/btn_auth_challenge_background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="BtnTheme.ButtonDialog" parent="android:Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:textAppearance">@style/BtnCardText.Dark.Small</item>
+        <item name="android:windowAnimationStyle">@style/BtnAnimation.Card</item>
+        <item name="android:windowBackground">@color/btn_dialog_background</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="BtnTheme.ButtonFullScreen" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus" ns1:ignore="NewApi">false</item>
+    </style>
+    <style name="BtnTheme.ButtonMerchantAction" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

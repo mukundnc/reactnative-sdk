@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usebutton.sdk.internal.views.TwoLineInventoryView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/btn_background_white"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="@dimen/btn_promo_card_padding"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/inventory_primary"
+                style="@style/BtnCardText.btn_charcoal.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:minWidth="120dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:ellipsize="end"
+                tools:text="Sedan is a great car you should buy it"
+                />
+
+            <TextView
+                android:id="@+id/inventory_secondary"
+                style="@style/BtnCardText.Dark.Small.Light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lines="1"
+                android:ellipsize="end"
+                android:minWidth="60dp"
+                tools:text="$14 and somem really reaaaallly good discounts"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="right|center_vertical"
+            >
+
+            <com.usebutton.sdk.internal.views.AssetImageView
+                android:id="@+id/inventory_icon_full"
+                android:layout_height="40dp"
+                android:visibility="gone"
+                tools:visibility="gone"
+                android:layout_width="40dp"
+                android:gravity="right"
+                android:scaleType="fitEnd"
+                tools:src="@drawable/btn_ic_car_black"
+                />
+
+            <com.usebutton.sdk.internal.views.AssetImageView
+                android:id="@+id/inventory_icon"
+                android:layout_width="40dp"
+                android:scaleType="fitEnd"
+                android:layout_height="30dp"
+                android:gravity="right"
+                tools:src="@drawable/btn_ic_car_black"
+                />
+
+
+            <TextView
+                android:id="@+id/inventory_icon_text"
+                style="@style/BtnCardText.Dark.Small.Light"
+                android:layout_width="wrap_content"
+                android:minWidth="60dp"
+                android:layout_marginTop="3dp"
+                android:gravity="right|center_vertical"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                tools:text="3 min away"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/btn_grey_light"
+        />
+</com.usebutton.sdk.internal.views.TwoLineInventoryView>
