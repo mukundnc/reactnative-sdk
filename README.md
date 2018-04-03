@@ -1,3 +1,18 @@
+To run the application type the below command
+npm start
+
+To generate signed apk to test it on device 
+cd android && gradlew.bat assembleRelease --debug
+
+The signed apk folder location is 
+\android\app\build\outputs\apk\app-release.apk
+
+For trying it on simulator make sure you have AVD configured and running
+
+Bluetooth id is hardcoded in the app which can be changed in file
+\android\app\src\main\java\com\benowp\Button.java (line number 47)
+Controler.connectPos("<bluetooth mac-id>");
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
